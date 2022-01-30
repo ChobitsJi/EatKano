@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 5) return '比米米还要铸币';
+        if (cps <= 8) return '跟米米一样铸币';
+        if (cps <= 10)  return '国服选手';
+        if (cps <= 15) return '职业选手';
         return '人？';
     }
 
